@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    /*opacity: 0.9;*/
+    font-size: 22px;
+}
+
+header{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: underline;
+    color: seashell;
+}
+
+.sct1 h2, .sct2 h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.sct1 h4,.sct2 h4{
+    font-size: 25px;
+}
+
+.cozy_logo{
+    height: 50px;
+} 
+
+.nav_li{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sct1{
+    display: flex;
+    background-image: url("img/mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+}
+
+.caption{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.caption h4{
+    margin-bottom: 10px;
+}
+
+.sct2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lis_items{
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.lis_items img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.lis_item1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lis_item2{
+    gap: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sct3{
+    background-image: url("img/locations-background.webp");
+    height: 570px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    text-align: center;
+}
+
+.location li{
+    width: 300px;
+    text-align: center;
+    background-color: black;
+}
